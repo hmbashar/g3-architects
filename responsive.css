@@ -154,6 +154,15 @@
     .single-fact {
         padding: 30px 10px 30px 10px;
     }
+    .single-fact h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .single-fact p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
 
     /* Sponsors Style */
     .our-sponsors {
@@ -210,7 +219,7 @@
         padding: 28px;
     }
 
-    /* Footer Style */
+
   
     .footer-area {
         margin-bottom: 100px;

@@ -230,6 +230,17 @@ header, main, footer{
 
 .single-fact h3 {
 	margin-top: 10px;
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 53px;
+color: var(--dark-color);
+}
+.single-fact p {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 23px;
 }
 .single-fact {
 	text-align: center;
@@ -261,6 +272,7 @@ header, main, footer{
 	margin: 0 auto;
 	margin-bottom: 50px;
 }
+
 
 
 /*----------------------------
