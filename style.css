@@ -13,6 +13,7 @@
     --heading-color:#131313;
     --text-color:#727272;
     --orange-light:#FFF4E7;
+    --dark-color:#424242;
 }
 body {
     font-family: 'Work Sans', sans-serif;
@@ -107,4 +108,31 @@ header, main, footer{
 }
 .header-bottom img{
 	width: 100%;
+}
+
+
+/* Our Features Styles */
+.quick-list{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	margin-top: 85px;
+	grid-column-gap: 70px;
+}
+.quick-list-left img{
+	width: 342px;
+	height: 342px;
+	border-radius: 8px;
+}
+.quick-list-left {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 24px;
+}
+.quick-list-content .thin-word{
+	font-weight: 500;
+	color: var(--dark-color);
+}
+.quick-list-content span{
+	color: var(--primary-color);
 }
