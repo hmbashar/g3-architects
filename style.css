@@ -65,12 +65,10 @@ header, main, footer{
 .primary-button:hover{
     background-color: var(--secondary-color);  
 }
+/*----------------------------
+* Header Area
+------------------------------*/
 
-.logo a{
-	color: var(--secondary-color);
-	font-weight: 700;
-	font-size: 45px;
-}
 .header-area{
 	background-color:var(--orange-light);
 	overflow: hidden;
@@ -83,7 +81,11 @@ header, main, footer{
 	justify-content: space-between;
 	margin:50px 0px;
 }
-
+.logo a{
+	color: var(--secondary-color);
+	font-weight: 700;
+	font-size: 45px;
+}
 
 .primary-menu ul {
 	list-style: none;
@@ -123,7 +125,9 @@ header, main, footer{
 }
 
 
-/* Our Features Styles */
+/*----------------------------
+* Quick List Area
+------------------------------*/
 .quick-list{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -150,7 +154,9 @@ header, main, footer{
 }
 
 
-
+/*----------------------------
+* Feature Area
+------------------------------*/
 .features {
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
@@ -211,7 +217,9 @@ header, main, footer{
 }
 
 
-
+/*----------------------------
+* Some Fact Area
+------------------------------*/
 .some-facts-list{
 	margin-top: 100px;
 	padding-bottom: 50px;
@@ -238,7 +246,9 @@ header, main, footer{
 }
 
 
-/* Our Sponspors Styles */
+/*----------------------------
+* Sponsors Area
+------------------------------*/
 .sponsors-logo{
 	display: flex;
 	flex-direction: row;
@@ -253,9 +263,9 @@ header, main, footer{
 }
 
 
-/*---------------------------------------
+/*----------------------------
     Contact Area              
------------------------------------------*/
+------------------------------*/
 
 .contact {
     margin: 100px auto;
@@ -371,6 +381,9 @@ header, main, footer{
 
 
 
+/*----------------------------
+    Footer Area              
+------------------------------*/
 
 .footer-area{
 	margin-bottom: 200px;
